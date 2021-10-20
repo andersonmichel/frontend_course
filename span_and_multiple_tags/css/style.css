@@ -1,0 +1,12 @@
+.person {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.male {
+    color: blue;
+}
+
+.female {
+    color: red;
+}
