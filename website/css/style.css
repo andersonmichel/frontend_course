@@ -47,3 +47,58 @@ header {
     color: #fff;
     opacity: 0.9;
 }
+
+#container {
+    display: flex;
+}
+
+#container main {
+    width: 70%;
+    margin-left: 16px;
+}
+
+#container main h2,
+#container aside h2 {
+    background-color: rgb(190, 184, 184);
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+#container main p {
+    color: #333;
+    font-size: 14px;
+}
+
+#container aside {
+    width: 30%;
+    margin-left: 24px;
+    margin-right: 16px;
+}
+
+#container aside ul li {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px dotted #333;
+}
+
+#container aside ul li:last-child {
+    border: 0;
+}
+
+#container aside ul li a {
+    display: flex;
+    color: #c53902;
+    align-items: center;
+}
+
+#container aside ul li a:hover {
+    text-decoration: none;
+}
+
+#container aside ul li a img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
